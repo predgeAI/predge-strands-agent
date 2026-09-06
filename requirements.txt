@@ -1,0 +1,12 @@
+# Core agent framework
+strands-agents>=0.1.0
+strands-agents-tools>=0.1.0
+
+# HTTP + x402 pay-per-call (LIVE mode only; MOCK mode needs just requests)
+requests>=2.31.0
+x402[requests]>=0.1.0
+eth-account>=0.11.0
+
+# Optional non-Bedrock model providers — install the one you use:
+#   pip install "strands-agents[anthropic]"
+#   pip install "strands-agents[openai]"
